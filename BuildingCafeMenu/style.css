@@ -9,16 +9,18 @@ p {
 }
 
 .menu {
-  width: 80%;
+  max-width: 500px;
   background-color: burlywood;
   margin: auto;
+  padding: 20px;
 }
 
 .item p {
   display: inline-block;
 }
 
-.flavor {
+.flavor,
+.dessert {
   text-align: left;
   width: 49%;
 }
